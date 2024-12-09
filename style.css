@@ -1,8 +1,9 @@
+/*Full body style*/
 body{
     background-color: wheat;
     margin: 50px;
 }
-
+/*top header*/
 #home{
     margin-left: -1cm;
     margin-right: -1cm;
@@ -16,12 +17,12 @@ header{
     float: left;
     padding-left: 2cm;
 }
-
+/*Navigation menu*/
 .topdiv {
     float: right;
     padding-right: 1cm;
   }
-  
+/*Navigation buttons*/
 .topmenu {
     color: lightgray;
     background-color:   #483355;
@@ -38,28 +39,28 @@ header{
     background-color: #382742;
     text-decoration: underline;
   }
-
+/*Convversion section*/
 #conversions {
   display: grid;
   justify-content: centre;
 }
-
+/*All figures in the doc*/
 figure {
   float:left; 
   justify-self: auto; 
   width:200px
 }
-
+/*All images in the doc*/
 img {
   width: 200px;
 }
-
+/*All captions in the doc*/
 figcaption {
   color:black;
   font-size: 17px;
   text-align: center;
 }
-
+/*All buttons in the doc*/
 button{
   font-size: 20px;
   border: transparent;
@@ -73,7 +74,7 @@ button{
 button:hover {
   cursor: pointer;
 }
-
+/*All individual conversion sections*/
 .b{
   border-top-style: solid;
   background-color: white;
@@ -85,20 +86,24 @@ button:hover {
   margin-top: 25px;
   display: flex;
 }
+/*Specifilly the temperature conversion section*/
 .temperature{
   border-top-color: green;
 }
+/*Specifilly the weight conversion section*/
 .weight{
   border-top-color: coral;
 }
+/*Specifilly the distance conversion section*/
 .distance{
   border-top-color: cyan;
 }
+/*Alll legends in the doc*/.
 legend {
   font-size: 30px;
   font-weight: bolder;
 }
-/* Floating icon for the home button */
+/* Home button*/
 .iconbutton{
   width:40px;
   height:40px;
@@ -111,11 +116,7 @@ legend {
   bottom:40px;
   left:0;
   }
+
 .iconbutton img {
   width:30px
-}
-  
-footer {
-  background-color:rgb(240, 234, 245);
-  margin-top: 20px;
 }
