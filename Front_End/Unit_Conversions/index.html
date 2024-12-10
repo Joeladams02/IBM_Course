@@ -3,6 +3,7 @@
     <head>
         <title>Unit Conversions</title>
         <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+        <script src="script.js"></script>
     </head>
     <body>
         <section id = "home">
@@ -38,7 +39,7 @@
                             <label for="Temperature">Celsius</label> <br/>
                             <input type="number" id="c"> <br/>
 
-                            <button id="temperature"> Convert </button> <br/>
+                            <button id="temperature" onclick = temp_conversion()> Convert </button> <br/>
 
                             <label for="Temperature">Fahrenheit</label><br/>
                             <input type="number" id="f">
@@ -66,7 +67,7 @@
                             <label for="Weight">Kilograms</label> <br/>
                             <input type="number" id="kg"> <br/>
 
-                            <button id="weight"> Convert </button> <br/>
+                            <button id="weight" onclick = weight_conversion()> Convert </button> <br/>
 
                             <label for="Weight">Pounds</label><br/>
                             <input type="number" id="lb">
@@ -94,7 +95,7 @@
                             <label for="Distance">Kilometres</label> <br/>
                             <input type="number" id="km"> <br/>
 
-                            <button id="distance"> Convert </button> <br/>
+                            <button id="distance" onclick = distance_conversion()> Convert </button> <br/>
 
                             <label for="Distance">Miles</label><br/>
                             <input type="number" id="ml">
