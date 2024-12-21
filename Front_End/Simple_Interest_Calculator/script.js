@@ -1,3 +1,5 @@
+//testing a git update
+
 function compute() {
     var principal = document.getElementById('principal').value;
 
