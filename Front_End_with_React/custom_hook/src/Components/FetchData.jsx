@@ -4,7 +4,6 @@ import './FetchData.css'
 
 const FetchData = () => {
   const [data] = UseFetch('https://api.npoint.io/9045c260b1565daa9e15');
-  console.log(data);
   return (
     <>
     <ul className = "list_data_main">
