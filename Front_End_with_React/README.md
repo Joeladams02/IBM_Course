@@ -5,5 +5,6 @@ This is the fourth module of the IBM course and covers the use of react to creat
 <ul>
 <li>The first hands on module is the content rating project. Here I was provided with the css and the basic javascript and XML. I worked through the addition of the like and dislike buttons, learning how to handle events. I then had to add the fucntionality of the total button myself. I originally did it in a way that wouldn't dyanmically update, this was a key takeaway of this project. It is important to ensure any dynamic fucntionality needs to be properly added such that it dynamically updates.</li>
 <li>The second lab was the event planner app. Again the structure of the static html and css were provided. I had to create the footer file, code up the component and then add it into the main file. This was to practice component composition.</li>
+<li> The third lab tested event handling and the use of hooks. This was by far the most technical lab we have done so far and presented many challenges. The number of fucntions used and the denseness of syntax meant I had to spend a long time working out exactly what each fucntion did and the order in which things were called as the user inreracted with the webpage.</li>
 </ul>
 </html>
