@@ -79,9 +79,9 @@ const FeedbackForm = () => {
         onChange={handleChange} 
       >
       </textarea> 
-      <div className="rating">
+      <div className="rating"> 
         <span> Rate us: </span>
-        {ratings.map((rating) => (
+        {ratings.map((rating) => ( //Map over the ratings array to create radio buttons
           <p key = {rating}>
             <input 
               type = 'radio' 
