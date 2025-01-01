@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
+import "./SuperCoin.css";
 
 const SuperCoins = () => {
     const [superCoin, setSuperCoins] = useState(0);
@@ -29,7 +30,7 @@ const SuperCoins = () => {
     return (
         <>
             <div className = "super-coins">
-                <span> You will earn {superCoin} Super Coins</span>
+                <h3> You will earn {superCoin} Super Coins</h3>
             </div>
         </>
     )
