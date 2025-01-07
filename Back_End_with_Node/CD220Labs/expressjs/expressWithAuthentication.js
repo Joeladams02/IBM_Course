@@ -46,8 +46,8 @@ app.use("/auth", function auth(req, res, next) {
 
 // Route to handle user login
 app.post("/login", (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
+  const username = req.query.username;
+  const password = req.query.password;
 
   if (!username || !password) {
     return res.status(404).json({ message: "Error logging in" });
@@ -69,8 +69,8 @@ app.post("/login", (req, res) => {
 
 // Route to handle user registration
 app.post("/register", (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
+  const username = req.query.username;
+  const password = req.query.password;
 
   if (username && password) {
     if (!doesExist(username)) {
@@ -88,6 +88,6 @@ app.get("/auth/get_message", (req, res) => {
   return res.status(200).json({ message: "Hello, You are an authenticated user. Congratulations!" });
 });
 
-const PORT = 5000; // Define the port number
+const PORT = 3000; // Define the port number
 
 app.listen(PORT, () => console.log("Server is running")); // Start the server and listen on the specified port
