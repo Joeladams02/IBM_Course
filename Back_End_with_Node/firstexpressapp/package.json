@@ -1,0 +1,22 @@
+{
+  "name": "firstexpressapp",
+  "version": "1.0.0",
+  "description": "My First Express App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "IBM_Course"
+  },
+  "keywords": [
+    "first",
+    "express"
+  ],
+  "author": "Joel Adams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
