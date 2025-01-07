@@ -10,5 +10,6 @@ This is the fifth module of the IBM Course and covers the server side with node.
     <li>This was followed with the expressAppLevelMiddleware.js which used a very simple password based authentication. If the incorrect password is sent as a query, the user is not allowed to access the endpoint.</li>
     <li>I then used the expressWithAuthentication.js. This allowed users to register by passing username and password as query parameters. It checks if the user has aready registered and then allows them to login. Upon logging in, they can access the auth/get-message endpoint. During testing with Postman, I initially encountered issues because the code was designed to accept the username and password within the request body rather than as query parameters. To resolve this, I modified the code to support passing these values as query parameters.</li>
 </ul>
+</ol>
 </html>
 
