@@ -12,8 +12,8 @@ This is the fifth module of the IBM Course and covers the server side with node.
     <li>I then used the expressWithAuthentication.js. This allowed users to register by passing username and password as query parameters. It checks if the user has aready registered and then allows them to login. Upon logging in, they can access the auth/get-message endpoint. During testing with Postman, I initially encountered issues because the code was designed to accept the username and password within the request body rather than as query parameters. To resolve this, I modified the code to support passing these values as query parameters.</li>
     <li>The next script was expressRouting.js amd gave a simpe example of a couple of routers, each with different middleware employed.</li>
     <li>Then I looked at expressStaticPages.js and saw how it locates and renders a html document. I also added me own html document from when I was learning front end and rendered that.</li>
-    <li>Finally, I created my own express app. This can be found in firstExpressApp. I attempted my own authorisation app, it needs some work to iron out some bugs.</li>
 </ul>
+<h3> Final Project <h3><p>The final project is the expressBookReviews. This was almost entirely coded by me with just the skeleton put together fopr us to fill in. This included creating PUT, POST, GET and DELETE requests to register, login, and then search for the info in different ways and leave a review. Token based authentication was employed and I worked with promises for all the GET requests to minimise loading times if the app were to be scaled.</p>
 </ol>
 </html>
 
