@@ -9,6 +9,6 @@ This is the fourth module of the IBM course and covers the use of react to creat
 <li> The fourth lab was the custom hook project. This was a quick lab showing the benefits of creating a custom hook. A custom hook useFetch was created to streamline the fetching of data from an API. As I worked with a couple of components requiring this capability, the custom hook increased efficiency and readability.</li>
 <li> The fifth lab was the eCommerce project. This uses multiple components and redux to pass the states between them. This was a hugely rewarding project which, though complex, I felt I was able to get to grips with well. In fact, the code they gave us in the tutorial had a few bugs in it. For example, I streamlined the logic to disable the buttons, and extended the functionality to reenable when the item was removed from basket.</li>
 </ol>
-<h3 style="font-size: 2em;">Final Project</h3>
-<p>I developed the PlantShop which is currently to be found in a seperate repository,to be accessible via gh-pages: https://Joeladams02.github.io/PlantShop . This was majority coded by me, with the CSS and skeleton HTML provided. I added the button functionality throughout. I would be interested in further looking into the use of multi-page apps, as this one partly is.</p>
+<h3 style="font-size: 2em;">Final Project: https://Joeladams02.github.io/PlantShop</h3>
+<p>I developed the PlantShop which is currently to be found in a seperate repository,to be accessible via gh-pages. This was majority coded by me, with the CSS and skeleton HTML provided. I added the button functionality throughout. I would be interested in further looking into the use of multi-page apps, as this one partly is.</p>
 </html>
