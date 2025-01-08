@@ -13,7 +13,8 @@ This is the fifth module of the IBM Course and covers the server side with node.
     <li>The next script was expressRouting.js amd gave a simpe example of a couple of routers, each with different middleware employed.</li>
     <li>Then I looked at expressStaticPages.js and saw how it locates and renders a html document. I also added me own html document from when I was learning front end and rendered that.</li>
 </ul>
-<h3> Final Project <h3><p>The final project is the expressBookReviews. This was almost entirely coded by me with just the skeleton put together fopr us to fill in. This included creating PUT, POST, GET and DELETE requests to register, login, and then search for the info in different ways and leave a review. Token based authentication was employed and I worked with promises for all the GET requests to minimise loading times if the app were to be scaled.</p>
 </ol>
+<h3> Final Project <h3>
+<p>The final project is the expressBookReviews. This was almost entirely coded by me with just the skeleton put together fopr us to fill in. This included creating PUT, POST, GET and DELETE requests to register, login, and then search for the info in different ways and leave a review. Token based authentication was employed and I worked with promises for all the GET requests to minimise loading times if the app were to be scaled.</p>
 </html>
 
