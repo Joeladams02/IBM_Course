@@ -1,0 +1,11 @@
+,Country,GDP Estimate (Billions)
+1,United States,26855
+2,China,19374
+3,Japan,4410
+4,Germany,4309
+5,India,3737
+6,United Kingdom,3159
+7,France,2923
+8,Italy,2170
+9,Canada,2090
+10,Brazil,2081
