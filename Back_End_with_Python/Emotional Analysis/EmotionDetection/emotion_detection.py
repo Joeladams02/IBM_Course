@@ -2,7 +2,7 @@ import requests
 import json
 
 def emotion_detector(text_to_analyze):
-    apikey = "KdKdc1cPqbuze05MqAapqKFx8gAdz4IVTzTATGkc9kCL"
+    apikey = "*************************************"
 
     # Replace with your actual URL
     url = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/2052b0d3-a1b1-4f25-8a36-e3c5e87c59d0"
